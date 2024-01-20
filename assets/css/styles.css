@@ -9,9 +9,9 @@
     /*Color mode HSL(hue, saturation, lightness)*/
     --first-color: hsl(284, 92%, 40%);
     --first-color-alt: hsl(228, 66%, 47%);
-    --first-color-light: hsl(25, 95%, 57%);
+    --first-color-light: hsl(287, 95%, 57%);
     --first-color-lighten: hsl(228, 100%, 97%);
-    --second-color: hsl(25, 83%, 53%);
+    --second-color: hsl(284, 92%, 40%);
     --title-color: hsl(228, 57%, 28%);
     --text-color: hsl(228, 15%, 50%);
     --text-color-light: hsl(228, 12%, 75%);
@@ -503,7 +503,7 @@ body.dark-theme {
 
 .popular__price {
     font-size: var(--h2-font-size);
-    color: var(--text-color);
+    color: var(--second-color);
     margin-bottom: 0.25rem;
 }
 
