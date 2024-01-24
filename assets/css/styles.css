@@ -339,11 +339,13 @@ body.dark-theme {
     color: #fff;
 }
 
+
 .home__title {
     font-size: var(--biggest-font-size);
     line-height: 120%;
     margin-bottom: 1.25rem;
 }
+
 
 .home__description {
     color: var(--text-color-light);
@@ -459,6 +461,13 @@ body.dark-theme {
     display: none;
 }
 
+.Calign {
+    margin: auto;
+    width: 50%;
+    border: 3px ;
+    padding: 10px;
+  }
+
 /*=============== LOGOS ===============*/
 
 .logos__container {
@@ -470,7 +479,7 @@ body.dark-theme {
 
 .logos__img img {
     height: 60px;
-    opacity: 0.2;
+    opacity: 0.3;
     transition: 0.3s;
 }
 
